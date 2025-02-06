@@ -1,0 +1,211 @@
+{
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back",
+    "to": "to",
+    "all": "All",
+    "search": "Search..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "charts": {
+      "dailyCashFlow": "Daily Cash Flow",
+      "monthlyTrends": "Monthly Trends",
+      "currencyDistribution": "Currency Distribution",
+      "incomeExpense": "Income vs Expenses"
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "new": "New Transaction",
+    "noCompany": {
+      "title": "No Company Selected",
+      "message": "Please select a company to create a transaction"
+    },
+    "validation": {
+      "emptyFields": "All entries must have an account and a positive amount",
+      "unbalanced": "Debits must equal credits",
+      "noCompany": "Please select a company first"
+    },
+    "filters": {
+      "title": "Filters",
+      "active": "Active",
+      "clearAll": "Clear all",
+      "dateRange": "Date Range",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "status": "Status",
+      "amountRange": "Amount Range",
+      "min": "Min",
+      "max": "Max",
+      "currency": "Filter Currency",
+      "currencyNote": "Amount filters will use this currency"
+    },
+    "form": {
+      "date": "Date",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter transaction description",
+      "displayCurrency": "Display Currency",
+      "entries": "Entries",
+      "total": "Total",
+      "difference": "Difference",
+      "addEntry": "Add Entry",
+      "type": "Type",
+      "debit": "Debit",
+      "credit": "Credit",
+      "account": "Account",
+      "selectAccount": "Select account",
+      "amount": "Amount",
+      "currency": "Currency",
+      "entryDescription": "Description",
+      "optional": "Optional"
+    }
+  },
+  "accounts": {
+    "title": "Chart of Accounts",
+    "new": "New Account",
+    "code": "Account Code",
+    "name": "Account Name",
+    "parent": "Parent Account",
+    "type": "Type",
+    "empty": "No accounts found",
+    "createFirst": "Create your first account",
+    "types": {
+      "asset": "Assets",
+      "liability": "Liabilities",
+      "equity": "Equity",
+      "revenue": "Revenue",
+      "expense": "Expenses"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language Settings",
+    "currencies": {
+      "title": "Currency Settings",
+      "base": "Base Currency",
+      "update": "Exchange Rate Updates",
+      "errors": {
+        "fillAllFields": "Please fill in all fields",
+        "invalidRate": "Invalid exchange rate"
+      },
+      "exchangeRates": "Exchange Rates",
+      "lastUpdated": "Last Updated",
+      "fromCurrency": "From Currency",
+      "toCurrency": "To Currency",
+      "rate": "Rate",
+      "ratePlaceholder": "Enter rate",
+      "addRate": "Add Rate",
+      "columns": {
+        "from": "From",
+        "to": "To",
+        "rate": "Rate",
+        "lastUpdated": "Last Updated",
+        "source": "Source"
+      },
+      "sources": {
+        "manual": "Manual",
+        "default": "Default"
+      }
+    },
+    "interface": {
+      "title": "Interface Settings",
+      "dateFormat": "Date Format",
+      "numberFormat": "Number Format"
+    },
+    "account": {
+      "title": "Account Settings",
+      "dangerZone": "Danger Zone",
+      "logout": "Sign Out"
+    }
+  },
+  "quickEntry": {
+    "title": "Quick Data Entry",
+    "validation": {
+      "missingColumns": "Missing required columns: {{columns}}",
+      "invalidDate": "Invalid date format. Use YYYY-MM-DD",
+      "invalidAccount": "Invalid account code: {{code}}",
+      "invalidAmount": "Invalid amount format",
+      "invalidEntry": "Entry must have either a debit or credit amount, not both or neither",
+      "invalidFileType": "Please upload a CSV file"
+    },
+    "manual": {
+      "title": "Manual Entry",
+      "attachments": "Attachments",
+      "takePhoto": "Take Photo",
+      "uploadReceipt": "Upload Receipt",
+      "save": "Save Entry"
+    },
+    "bulk": {
+      "title": "Bulk Upload",
+      "dropzone": "Click to upload or drag and drop",
+      "csvOnly": "CSV files only",
+      "preview": "Preview",
+      "format": "File Format",
+      "formatDate": "Date (YYYY-MM-DD)",
+      "formatDescription": "Description",
+      "formatAccountCode": "Account Code",
+      "formatDebit": "Debit Amount",
+      "formatCredit": "Credit Amount",
+      "formatCurrency": "Currency (optional)",
+      "processing": "Processing...",
+      "upload": "Upload Transactions"
+    }
+  },
+  "approval": {
+    "title": "Approval Workflow",
+    "bossApproval": "Boss Approval",
+    "approvedBy": "Approved by {{user}} on {{date}}",
+    "rejectionReason": "Reason",
+    "status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pendingApproval": "Pending Approval",
+      "draft": "Draft",
+      "pending": "Pending"
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "rejectForm": {
+      "placeholder": "Please provide a reason for rejection...",
+      "confirm": "Confirm Rejection"
+    },
+    "messages": {
+      "approved": "This transaction has been approved",
+      "rejected": "This transaction has been rejected",
+      "waitingForBoss": "Waiting for boss approval"
+    }
+  },
+  "reports": {
+    "multiCurrency": {
+      "title": "Multi-Currency Report",
+      "breakdown": "Currency Breakdown"
+    },
+    "totals": {
+      "income": "Income",
+      "expenses": "Expenses",
+      "profit": "Profit",
+      "net": "Net"
+    },
+    "actions": {
+      "export": "Export Report"
+    },
+    "columns": {
+      "date": "Date",
+      "description": "Description",
+      "originalAmount": "Original Amount",
+      "convertedAmount": "Converted Amount",
+      "type": "Type"
+    }
+  }
+}

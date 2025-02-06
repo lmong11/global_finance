@@ -1,0 +1,211 @@
+{
+  "common": {
+    "save": "保存",
+    "saving": "保存中...",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "success": "成功",
+    "confirm": "确认",
+    "back": "返回",
+    "to": "至",
+    "all": "全部",
+    "search": "搜索..."
+  },
+  "dashboard": {
+    "title": "总览",
+    "charts": {
+      "dailyCashFlow": "每日现金流",
+      "monthlyTrends": "月度趋势",
+      "currencyDistribution": "币种分布",
+      "incomeExpense": "收支对比"
+    }
+  },
+  "transactions": {
+    "title": "交易记录",
+    "new": "新建交易",
+    "noCompany": {
+      "title": "未选择公司",
+      "message": "请先选择一个公司以创建交易"
+    },
+    "validation": {
+      "emptyFields": "所有分录必须有账户和正数金额",
+      "unbalanced": "借贷必须平衡",
+      "noCompany": "请先选择公司"
+    },
+    "filters": {
+      "title": "筛选",
+      "active": "已启用",
+      "clearAll": "清除全部",
+      "dateRange": "日期范围",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "status": "状态",
+      "amountRange": "金额范围",
+      "min": "最小值",
+      "max": "最大值",
+      "currency": "筛选币种",
+      "currencyNote": "金额筛选将使用此币种"
+    },
+    "form": {
+      "date": "日期",
+      "description": "说明",
+      "descriptionPlaceholder": "输入交易说明",
+      "displayCurrency": "显示币种",
+      "entries": "分录",
+      "total": "合计",
+      "difference": "差额",
+      "addEntry": "添加分录",
+      "type": "类型",
+      "debit": "借方",
+      "credit": "贷方",
+      "account": "账户",
+      "selectAccount": "选择账户",
+      "amount": "金额",
+      "currency": "币种",
+      "entryDescription": "说明",
+      "optional": "可选"
+    }
+  },
+  "accounts": {
+    "title": "账户列表",
+    "new": "新建账户",
+    "code": "账户代码",
+    "name": "账户名称",
+    "parent": "上级账户",
+    "type": "类型",
+    "empty": "未找到账户",
+    "createFirst": "创建第一个账户",
+    "types": {
+      "asset": "资产",
+      "liability": "负债",
+      "equity": "所有者权益",
+      "revenue": "收入",
+      "expense": "费用"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言设置",
+    "currencies": {
+      "title": "币种设置",
+      "base": "基准币种",
+      "update": "汇率更新",
+      "errors": {
+        "fillAllFields": "请填写所有字段",
+        "invalidRate": "无效的汇率"
+      },
+      "exchangeRates": "汇率",
+      "lastUpdated": "最后更新",
+      "fromCurrency": "原币",
+      "toCurrency": "目标币",
+      "rate": "汇率",
+      "ratePlaceholder": "输入汇率",
+      "addRate": "添加汇率",
+      "columns": {
+        "from": "原币",
+        "to": "目标币",
+        "rate": "汇率",
+        "lastUpdated": "最后更新",
+        "source": "来源"
+      },
+      "sources": {
+        "manual": "手动",
+        "default": "默认"
+      }
+    },
+    "interface": {
+      "title": "界面设置",
+      "dateFormat": "日期格式",
+      "numberFormat": "数字格式"
+    },
+    "account": {
+      "title": "账户设置",
+      "dangerZone": "危险区域",
+      "logout": "退出登录"
+    }
+  },
+  "quickEntry": {
+    "title": "快速录入",
+    "validation": {
+      "missingColumns": "缺少必需列：{{columns}}",
+      "invalidDate": "日期格式无效。请使用 YYYY-MM-DD",
+      "invalidAccount": "账户代码无效：{{code}}",
+      "invalidAmount": "金额格式无效",
+      "invalidEntry": "分录必须有借方或贷方金额，不能同时有或同时没有",
+      "invalidFileType": "请上传 CSV 文件"
+    },
+    "manual": {
+      "title": "手动录入",
+      "attachments": "附件",
+      "takePhoto": "拍照",
+      "uploadReceipt": "上传单据",
+      "save": "保存分录"
+    },
+    "bulk": {
+      "title": "批量上传",
+      "dropzone": "点击上传或拖拽文件",
+      "csvOnly": "仅支持 CSV 文件",
+      "preview": "预览",
+      "format": "文件格式",
+      "formatDate": "日期 (YYYY-MM-DD)",
+      "formatDescription": "说明",
+      "formatAccountCode": "账户代码",
+      "formatDebit": "借方金额",
+      "formatCredit": "贷方金额",
+      "formatCurrency": "币种（可选）",
+      "processing": "处理中...",
+      "upload": "上传交易"
+    }
+  },
+  "approval": {
+    "title": "审批流程",
+    "bossApproval": "老板审批",
+    "approvedBy": "由 {{user}} 于 {{date}} 审批",
+    "rejectionReason": "原因",
+    "status": {
+      "approved": "已审批",
+      "rejected": "已拒绝",
+      "pendingApproval": "待审批",
+      "draft": "草稿",
+      "pending": "待处理"
+    },
+    "actions": {
+      "approve": "同意",
+      "reject": "拒绝"
+    },
+    "rejectForm": {
+      "placeholder": "请输入拒绝原因...",
+      "confirm": "确认拒绝"
+    },
+    "messages": {
+      "approved": "此交易已审批通过",
+      "rejected": "此交易已被拒绝",
+      "waitingForBoss": "等待老板审批"
+    }
+  },
+  "reports": {
+    "multiCurrency": {
+      "title": "多币种报表",
+      "breakdown": "币种明细"
+    },
+    "totals": {
+      "income": "收入",
+      "expenses": "支出",
+      "profit": "利润",
+      "net": "净额"
+    },
+    "actions": {
+      "export": "导出报表"
+    },
+    "columns": {
+      "date": "日期",
+      "description": "说明",
+      "originalAmount": "原币金额",
+      "convertedAmount": "折算金额",
+      "type": "类型"
+    }
+  }
+}
